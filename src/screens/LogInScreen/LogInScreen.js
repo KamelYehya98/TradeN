@@ -14,8 +14,11 @@ const LogInScreen = () => {
           <CustomInput placeholder="Username" value={username} setValue={setUsername}/>
           <CustomInput placeholder="Password" secureTextEntry={true} value={password} setValue={setPassword}/>
           <CustomButton onPress={null} text="LOGIN"/>
-          <Text style={styles.dontHaveAnAccount}>Don't have an account? signup
-          </Text>
+          <Pressable onPress={null}>
+            <Text style={styles.dontHaveAnAccount}>
+              Don't have an account? signup
+            </Text>
+          </Pressable>
         </View>
       )
 }

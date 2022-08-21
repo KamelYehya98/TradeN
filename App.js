@@ -8,19 +8,17 @@
 
 import React from 'react';
 import SignUpScreen from './src/screens/SignUpScreen';
-import {SafeAreaView, StyleSheet} from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack'
+import {StyleSheet} from 'react-native';
 
-const Stack = createStackNavigator();
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen component={SignUpScreen} name="SignUp" />
-      </Stack.Navigator>
-    </NavigationContainer>
+    // <NavigationContainer>
+    //   <Stack.Navigator>
+    //     <Stack.Screen component={SignUpScreen} name="SignUp" />
+    //   </Stack.Navigator>
+    // </NavigationContainer>
+    <SignUpScreen />
   );
 };
 

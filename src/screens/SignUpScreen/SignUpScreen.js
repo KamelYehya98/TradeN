@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Pressable, ScrollView } from 'react-native'
+import { View, Text, StyleSheet, Pressable } from 'react-native'
 import React, {useState} from 'react'
 import CustomInput from '../../components/CustomInput'
 import CustomButton from '../../components/CustomButton'
